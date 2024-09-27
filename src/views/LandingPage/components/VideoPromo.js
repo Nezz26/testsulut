@@ -10,14 +10,13 @@ const VideoPromo = () => {
       m={20}
       // minHeight="100vh"
     >
-      <Box
-        as="iframe"
-        // src="https://www.youtube.com/embed/wI2vqXsjsIo"
-        src="https://www.youtube.com/embed/nIrEMYzRgxg"
-        width={{ base: '300px',md: "500px" ,lg: '900px' }}
-        sx={{
-          aspectRatio: '16/9',
-        }}
+      <Box  
+        as="iframe"  
+        src="https://www.youtube.com/embed/nIrEMYzRgxg"  
+        width={{ base: '300px', md: "500px", lg: '900px' }}  
+        sx={{  
+            aspectRatio: '16/9',  
+        }}  
       />
       <Text
         // paddingX="250px"
