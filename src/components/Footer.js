@@ -17,7 +17,7 @@ import { FaInstagram, FaTwitter, FaYoutube, FaFacebook } from 'react-icons/fa';
 import { BiMailSend } from 'react-icons/bi';
 // import { ReactComponent as LogoSvg } from '../assets/LogoDaerah.svg';
 import LogoDaerah from '../assets/Logo_Daerah.png';
-import LogoDaerahKabProb from '../assets/Unsrat.png';
+import LogoDaerahKabProb from '../assets/Logo_Kabupaten_Probolinggo_-_Seal_of_Probolinggo_Regency.png';
 
 const Logo = props => {
   return (
@@ -86,24 +86,94 @@ export default function Footer() {
           </Box>
           <Stack spacing={3}>
             <Text fontSize={'lg'} fontWeight={'bold'}>
-              Kab Iyo-iyo
+              Sulawesi Utara
             </Text>
             <Text fontSize={'sm'}>
-              Dinas Kominfo Jalan: Raya Panglima Dimana-mana Hatimu Senang
+              Universitas Sam Ratulangi, Fakultas Teknik Elektro, Profi Informatika
+            </Text>
+            <Text fontSize={'sm'}>© 2023 
+            <Link href="https://instagram.com/neziahp/" ml={1}>Neziahp</Link>
             </Text>
             
-            <Link href="https://instagram.com/neziahp" ml={1}>© 2024 @neziahp</Link>
-            <Text fontSize={'sm'}></Text>
-            <Text fontSize={'sm'}></Text>
-            
+            <Stack direction={'row'} spacing={6}>
+              <SocialButton
+                label={'Twitter'}
+                href={'https://twitter.com/'}
+              >
+                <FaTwitter />
+              </SocialButton>
+              <SocialButton
+                label={'YouTube'}
+                href={
+                  'https://www.youtube.com/'
+                }
+              >
+                <FaYoutube />
+              </SocialButton>
+              <SocialButton
+                label={'Facebook'}
+                href={'https://www.facebook.com/'}
+              >
+                <FaFacebook />
+              </SocialButton>
+            </Stack>
           </Stack>
-          
-          
+          <Stack align={'flex-start'}>
+            <ListHeader></ListHeader>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader></ListHeader>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+            <Box as="a" href={'#'}>
+              
+            </Box>
+          </Stack>
           <Stack align={'flex-start'}>
             <ListHeader></ListHeader>
             <Stack direction={'row'}>
-              
-              
+              <Input
+                placeholder={'Your email address'}
+                bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+                border={0}
+                _focus={{
+                  bg: 'whiteAlpha.300',
+                }}
+              />
+              <IconButton
+                bg={useColorModeValue('blue.400', 'blue.800')}
+                color={useColorModeValue('white', 'gray.800')}
+                _hover={{
+                  bg: 'blue.600',
+                }}
+                aria-label="Subscribe"
+                icon={<BiMailSend />}
+              />
             </Stack>
             
           </Stack>

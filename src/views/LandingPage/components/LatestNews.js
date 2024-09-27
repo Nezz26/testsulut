@@ -81,24 +81,20 @@ const LatestNews = () => {
           >
             <CardHeader pb={0}>
               <Badge colorScheme="green" fontSize="md" mb="2" fontFamily="default">
-                12 / 08 / 2023
+                22 / 09 / 2024
               </Badge>
               <Heading size={{ base : "sm" , lg : "md" }}>
-                Ribuan ASN Kerja Bhakti Bersih-Bersih Stadion Gelora Merdeka
-                Kraksaan
+              Berapa Harta Kekayaan Paslon Gubernur dan Wagub Sulut Nomor Urut 2 E2L dan HJP? Cek Rinciannya di Sini!
               </Heading>
             </CardHeader>
             <CardBody fontFamily="body" pb={0}>
               <Text fontSize={{ lg : "lg", base : "sm" }} >
-                Ribuan Aparatur Sipil Negara (ASN) dari Organisasi Perangkat
-                Daerah (OPD) dan Kecamatan bersama dengan anggota TNI, Pramuka
-                dan Karang Taruna melakukan kerja bakti bersih-bersih Stadion
-                Gelora Merdeka Kraksaan, Sabtu (12/8/2023).
+              dr Elly Engelbert Lasut ME (E2L) dan Hanny Joost Pajouw SEAk ME (HJP) resmi ditetapkan sebagai pasangan calon gubernur dan wakil gubernur (wagub) Sulawesi Utara (Sulut) oleh KPU pada 22 September 2024.
               </Text>
             </CardBody>
             <CardFooter>
               <Button fontFamily={'heading'} colorScheme="teal">
-                Kemasyarakatan
+                Politik
               </Button>
             </CardFooter>
           </Card>
@@ -115,27 +111,20 @@ const LatestNews = () => {
           >
             <CardHeader pb={0}>
               <Badge colorScheme="green" fontSize="md" mb="2" fontFamily="default">
-                11 / 08 / 2023
+                26 / 09 / 2024
               </Badge>
               <Heading size={{ base : "sm" , lg : "md" }}>
-                Teken Nota Kesepakatan KUA-PPAS P-APBD TA 2023
+              KABAR GEMBIRA… Prabowo Bangun Sekolah Taruna di Kampung Halamannya Langowan, OD Siapkan Lahan 20 Hektar
               </Heading>
             </CardHeader>
             <CardBody fontFamily="body" pb={0}>
               <Text fontSize={{ lg : "lg", base : "sm" }}  >
-                Setelah melalui tahapan pembahasan oleh Tim Anggaran Pemerintah
-                Daerah (TAPD) dan Badan Anggaran (Banggar) DPRD Kabupaten
-                Probolinggo, Jum’at (11/8/2023) dilakukan penandatanganan
-                (teken) Nota Kesepakatan Bersama antara Pemkab Probolinggo
-                dengan DPRD Kabupaten Probolinggo Tentang Kebijakan Umum
-                Anggaran (KUA) dan Prioritas serta Plafon Anggaran Sementara
-                (PPAS) Perubahan Anggaran Pendapatan dan Belanja Daerah (P-APBD)
-                Kabupaten Probolinggo Tahun Anggaran 2023.
+              Minahasa, Sulawesi Utara memang menjadi fokus perhatian Presiden Terpilih Prabowo Subianto karena kampung halaman ibundanya Dora Sigar.
               </Text>
             </CardBody>
             <CardFooter>
               <Button fontFamily={'heading'} colorScheme="teal">
-                Kesehatan
+                Kemasyarakatan
               </Button>
             </CardFooter>
           </Card>

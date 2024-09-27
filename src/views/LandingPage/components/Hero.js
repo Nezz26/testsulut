@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   const bgImage =
-    'https://images.unsplash.com/photo-1664896362010-3aaed5340512?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+    'https://images.unsplash.com/photo-1612091508912-2136973784c3?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
   const badgeColorScheme = 'blue';
-  const badgeFontSize = '0.8em';
+  const badgeFontSize = '0.9em';
 
   return (
     <Flex
@@ -31,13 +31,13 @@ const Hero = () => {
           }}
         >
           <Text
-            fontSize={{ base: '30px', md: '70px', lg: '110px' }}
+            fontSize={{ base: '20px', md: '60px', lg: '100px' }}
             fontFamily="heading"
             fontWeight="900"
             color="gray.50"
             mb={{ base: '10px', md: '20px' }}
           >
-            Desa Mana-Mana
+            WELCOME TO NORTH SULAWESI
           </Text>
         </motion.div>
 
@@ -55,7 +55,7 @@ const Hero = () => {
           color="gray.50"
           fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
         >
-          Terwujudnya Kabupaten Iyo-iyo Yang
+          Terwujudnya Sulawesi Utara Yang
           <Badge
             variant="subtle"
             colorScheme={badgeColorScheme}

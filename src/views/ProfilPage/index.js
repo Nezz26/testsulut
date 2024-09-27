@@ -8,7 +8,7 @@ export default function ProfilPage() {
   return (
     <Flex m="30px 10px" gap={50} flexDirection={{ base: 'column', lg: 'row' }}>
       <Box textAlign={{ base: 'left', lg: 'right' }} fontFamily="heading">
-        <Heading mb={3}>Profil Kota Manado</Heading>
+        <Heading mb={3}>Profil Prov Sulawesi Utara</Heading>
         <Link href="#datawilayah">
           <Text decoration="underline">Data Wilayah</Text>
         </Link>
@@ -16,7 +16,7 @@ export default function ProfilPage() {
           <Text decoration="underline">Visi Misi</Text>
         </Link>
         <Link href="#logokabupaten">
-          <Text decoration="underline">Logo Kabupaten</Text>
+          <Text decoration="underline">Logo Provinsi</Text>
         </Link>
         <Link href="#kondisigeografis">
           <Text decoration="underline">Kondisi Geografis</Text>

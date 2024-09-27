@@ -9,49 +9,58 @@ import sup7 from '../assets/supports/image 11.png';
 
 export const TravelPlace = [
   {
-    title: 'Pulau Bunaken',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Bunaken_underwater.jpg',
-    location: 'https://goo.gl/maps/xKKDo7aDvZs9QLWG6',
-  },
-  {
-    title: 'Air Terjun Tumpa',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Air_Terjun_Tumpa%2C_Kota_Manado.jpg',
-    location: 'https://goo.gl/maps/L4Z3f6zqA6n7QUGX6',
-  },
-  {
-    title: 'Taman Nasional Bunaken',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Bunaken_National_Park.jpg',
-    location: 'https://goo.gl/maps/1VQEVqHKmbDFJwhdA',
-  },
-  {
-    title: 'Danau Tondano',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Danau_Tondano_dilihat_dari_Bukit_Kasih.jpg',
-    location: 'https://goo.gl/maps/TRtjPWNXJeeCMNRy6',
-  },
-  {
-    title: 'Pantai Malalayang',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Pantai_Malalayang.jpg',
-    location: 'https://goo.gl/maps/yc3xv1QWgEFYLrkt9',
-  },
-  {
-    title: 'Gunung Klabat',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Mount_Klabat.jpg',
-    location: 'https://goo.gl/maps/j1cLRCjZfK92Lig18',
+    title: 'Taman Laut Bunaken',
+    image:
+      'https://images.unsplash.com/photo-1715899735604-10c58aabd39f?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    location: 'https://goo.gl/maps/7fAWqG4Ub4U4kFiv8',
   },
   {
     title: 'Pulau Siladen',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Siladen02.jpg',
-    location: 'https://goo.gl/maps/e6Cz3RqLcQRzgfLC6',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/5b/ad/99/bobocha-cottages-siladen.jpg?w=1200&h=-1&s=1',
+    location: 'https://goo.gl/maps/Bpmkz1kbWupE1mFt8',
   },
   {
-    title: 'Kota Tua Manado',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Dutch_Reformed_Church_in_Manado_City.jpg',
-    location: 'https://goo.gl/maps/fTZ6NhCzLK3Kj8aZA',
+    title: 'Gunung Lokon',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/c/c5/Lokon.JPG',
+    location: 'https://goo.gl/maps/tSfKwWfhpXncnxyy9',
   },
   {
-    title: 'Taman Kesatuan Bangsa',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Taman_Kesatuan_Bangsa_Manado.jpg',
-    location: 'https://goo.gl/maps/BwVc8vVZY3R8CPdR7',
+    title: 'Danau Tondano',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/c/c5/Danau_Tondano%2C_Sulawesi_Utara%2C_Indonesia.jpg',
+    location: 'https://goo.gl/maps/wPhCtvXQEV6oE85K6',
+  },
+  {
+    title: 'Bukit Doa Tomohon',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ca/b4/b5/bukit-doa-kelong.jpg?w=1200&h=-1&s=1',
+    location: 'https://goo.gl/maps/47x1LUodNL8PQj7C9',
+  },
+  {
+    title: 'Pulau Lembeh',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/a/a9/Lembeh_Island_view_from_Port_of_Bitung.JPG',
+    location: 'https://goo.gl/maps/3yJhmYuybF8vWrk69',
+  },
+  {
+    title: 'Pantai Pulisan',
+    image:
+      'https://kemenparekraf.go.id/_next/image?url=https%3A%2F%2Fapi2.kemenparekraf.go.id%2Fstorage%2Fapp%2Fuploads%2Fpublic%2F628%2F322%2F195%2F6283221959e7c631413485.jpg&w=1920&q=75',
+    location: 'https://goo.gl/maps/zs3H3aRAh4v5bAyD8',
+  },
+  {
+    title: 'Air Terjun Kali',
+    image:
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/65/65/94/kali-waterfall.jpg?w=1200&h=-1&s=1',
+    location: 'https://goo.gl/maps/XkroMTQRkoGDDt3U9',
+  },
+  {
+    title: 'Waruga Sawangan',
+    image:
+      'https://indonesia.go.id/assets/upload/headline/1575290843_PO2016021000340_20170426135840_thumb.jpg',
+    location: 'https://goo.gl/maps/zn3ib5fjqHZT6TnN8',
   },
 ];
 
@@ -89,12 +98,12 @@ export const institutionSupports = [
 export const pemerintahanNews = [
   {
     title:
-      'Mutasi Polri: Kapolri Rombak Pejabat Polda Sulut, Ini Daftar Direktur, Karo, dan Kapolres yang Baru',
+      'Pemkab Gelar Resepsi Kenegaraan HUT Ke-78 Kemerdekaan Republik Indonesia',
     image:
-      'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/28/2024/03/07/IMG_8219-2906751044.jpeg',
+      'https://probolinggokab.go.id/wp-content/uploads/2023/08/IMG-20230819-WA0005-1200x630.jpg',
     date: '19/ 08 / 2023',
     caption:
-      ' Mutasi Kapolri Jenderal Listyo Sigit Prabowo tertanggal 20 September 2024. Selain Kapolda yang segera dijabat Irjen Pol Roycke Langie, sejumlah pejabat utama hingga kapolres ikut diganti.',
+      'Pemerintah Kabupaten (Pemkab) Probolinggo menggelar Resepsi Kenegaraan HUT ke-78 Kemerdekaan Republik Indonesia di Pendopo Prasaja Ngesti Wibawa, Jum’at (18/8/2023) malam',
   },
   {
     title:

@@ -13,7 +13,7 @@ const DataWilayah = () => {
         Data Wilayah  
       </Text>  
       <UnorderedList fontFamily="heading" spacing={3}>  
-        <ListItem>Nama Resmi : Kota Manado </ListItem>  
+        <ListItem>Nama Resmi : Provinsi Sulawesi Utara </ListItem>  
         <ListItem>Ibu Kota : Manado </ListItem>  
         <ListItem>Provinsi : Sulawesi Utara </ListItem>  
         <ListItem>Batas Wilayah </ListItem>  
@@ -36,7 +36,7 @@ const DataWilayah = () => {
           maxWidth={{ base: '500px', lg: '700px' }}  
         >  
           <iframe  
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d107321.49044916782!2d124.75114865620908!3d1.5498392804312922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32879ef9ffb30fd3%3A0x3030bfbcaf77280!2sManado%2C%20Manado%20City%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1727295014673!5m2!1sen!2sid"  
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021222.1078233217!2d123.92318116849027!3d1.0496149247695286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3287754270069e31%3A0x45891617980cb835!2sNorth%20Sulawesi!5e0!3m2!1sen!2sid!4v1727406504664!5m2!1sen!2sid"  
             title="embed_location"  
             style={{ border: 0 }}  
             allowFullScreen=""  

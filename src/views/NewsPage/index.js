@@ -44,7 +44,25 @@ export default function NewsPage() {
           </BreadcrumbItem>
         </Breadcrumb>
       </Box>
-      
+      <Box my={2}>
+        <ButtonGroup colorScheme="teal" display={{ lg: 'table-row' }}>
+          <Link href="#pemerintahan">
+            <Button fontFamily={'default'} m={2}>
+              Pemerintahan
+            </Button>
+          </Link>
+          <Link href="#pendidikan">
+            <Button fontFamily={'default'} m={2}>
+              Pendidikan
+            </Button>
+          </Link>
+          <Link href="#kesehatan">
+            <Button fontFamily={'default'} m={2}>
+              Kesehatan
+            </Button>
+          </Link>
+        </ButtonGroup>
+      </Box>
       <Box my={15} id="pemerintahan">
         <Heading size={'lg'}>Pemerintahan</Heading>
         <Divider mt={1} />
